@@ -113,7 +113,7 @@ class Login extends Component {
                                     
                                 />
                                 <span onClick={()=>{this.handleShowHidePw()}}>
-                                    <i class={this.state.isshowPw ? "fas fa-eye" :"fas fa-eye-slash" }></i>
+                                    <i className={this.state.isshowPw ? "fas fa-eye" :"fas fa-eye-slash" }></i>
                                     
                                 </span>
                                 
